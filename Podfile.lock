@@ -1,0 +1,247 @@
+PODS:
+  - ASProgressHud (1.0.5)
+  - BoringSSL-GRPC (0.0.4):
+    - BoringSSL-GRPC/Implementation (= 0.0.4)
+    - BoringSSL-GRPC/Interface (= 0.0.4)
+  - BoringSSL-GRPC/Implementation (0.0.4):
+    - BoringSSL-GRPC/Interface (= 0.0.4)
+  - BoringSSL-GRPC/Interface (0.0.4)
+  - BTNavigationDropdownMenu (0.5)
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
+  - Firebase/Analytics (4.13.0):
+    - Firebase/Core
+  - Firebase/Auth (4.13.0):
+    - Firebase/Core
+    - FirebaseAuth (= 4.6.1)
+  - Firebase/Core (4.13.0):
+    - FirebaseAnalytics (= 4.2.0)
+    - FirebaseCore (= 4.0.20)
+  - Firebase/Database (4.13.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.5)
+  - Firebase/Firestore (4.13.0):
+    - Firebase/Core
+    - FirebaseFirestore (= 0.11.0)
+  - Firebase/Storage (4.13.0):
+    - Firebase/Core
+    - FirebaseStorage (= 2.2.0)
+  - FirebaseAnalytics (4.2.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.6.1):
+    - FirebaseAnalytics (~> 4.2)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.20):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDatabase (4.1.5):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseFirestore (0.11.0):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - gRPC-ProtoRPC (~> 1.0)
+    - leveldb-library (~> 1.18)
+    - Protobuf (~> 3.5)
+  - FirebaseInstanceID (2.0.10):
+    - FirebaseCore (~> 4.0)
+  - FirebaseStorage (2.2.0):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleMaps (3.7.0):
+    - GoogleMaps/Maps (= 3.7.0)
+  - GoogleMaps/Base (3.7.0)
+  - GoogleMaps/Maps (3.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.7.0):
+    - GoogleMaps/Base (= 3.7.0)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
+  - gRPC-Core (1.24.0):
+    - gRPC-Core/Implementation (= 1.24.0)
+    - gRPC-Core/Interface (= 1.24.0)
+  - gRPC-Core/Implementation (1.24.0):
+    - BoringSSL-GRPC (= 0.0.4)
+    - gRPC-Core/Interface (= 1.24.0)
+  - gRPC-Core/Interface (1.24.0)
+  - gRPC-ProtoRPC (1.24.0):
+    - gRPC-ProtoRPC/Legacy (= 1.24.0)
+    - gRPC-ProtoRPC/Legacy-Header (= 1.24.0)
+    - gRPC-ProtoRPC/Main (= 1.24.0)
+  - gRPC-ProtoRPC/Legacy (1.24.0):
+    - gRPC-ProtoRPC/Legacy-Header (= 1.24.0)
+    - gRPC-ProtoRPC/Main (= 1.24.0)
+    - gRPC-RxLibrary (= 1.24.0)
+    - gRPC/GRPCCore (= 1.24.0)
+    - Protobuf (~> 3.0)
+  - gRPC-ProtoRPC/Legacy-Header (1.24.0)
+  - gRPC-ProtoRPC/Main (1.24.0):
+    - gRPC-ProtoRPC/Legacy-Header (= 1.24.0)
+    - gRPC/Interface (= 1.24.0)
+    - Protobuf (~> 3.0)
+  - gRPC-RxLibrary (1.24.0):
+    - gRPC-RxLibrary/Implementation (= 1.24.0)
+    - gRPC-RxLibrary/Interface (= 1.24.0)
+  - gRPC-RxLibrary/Implementation (1.24.0):
+    - gRPC-RxLibrary/Interface
+  - gRPC-RxLibrary/Interface (1.24.0)
+  - gRPC/GRPCCore (1.24.0):
+    - gRPC-Core (= 1.24.0)
+    - gRPC-RxLibrary (= 1.24.0)
+    - gRPC/Interface (= 1.24.0)
+    - gRPC/Interface-Legacy (= 1.24.0)
+  - gRPC/Interface (1.24.0):
+    - gRPC/Interface-Legacy (= 1.24.0)
+  - gRPC/Interface-Legacy (1.24.0):
+    - gRPC-RxLibrary/Interface (= 1.24.0)
+  - GTMSessionFetcher/Core (1.2.2)
+  - GzipSwift (5.0.0)
+  - leveldb-library (1.22)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - Nuke (8.2.0)
+  - Protobuf (3.10.0)
+  - ReachabilitySwift (4.3.1)
+  - RxAppState (1.6.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.1):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+  - SnapKit (5.0.1)
+  - Starscream (3.1.1)
+  - StreamChat (1.5.0):
+    - Nuke (~> 8.2.0)
+    - RxGesture (~> 3.0.0)
+    - SnapKit (~> 5.0.0)
+    - StreamChatCore
+    - SwiftyGif (~> 5.1.0)
+  - StreamChatCore (1.5.0):
+    - GzipSwift (~> 5.0.0)
+    - ReachabilitySwift (~> 4.3.0)
+    - RxAppState (~> 1.6.0)
+    - RxSwift (~> 5.0.0)
+    - Starscream (~> 3.1.0)
+  - SwiftyGif (5.1.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - ASProgressHud
+  - BTNavigationDropdownMenu
+  - Charts (= 3.3.0)
+  - Firebase/Analytics
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Firestore
+  - Firebase/Storage
+  - GoogleMaps
+  - GooglePlaces
+  - StreamChat
+  - SwiftyJSON (= 5.0)
+
+SPEC REPOS:
+  trunk:
+    - ASProgressHud
+    - BoringSSL-GRPC
+    - BTNavigationDropdownMenu
+    - Charts
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseFirestore
+    - FirebaseInstanceID
+    - FirebaseStorage
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleToolboxForMac
+    - gRPC
+    - gRPC-Core
+    - gRPC-ProtoRPC
+    - gRPC-RxLibrary
+    - GTMSessionFetcher
+    - GzipSwift
+    - leveldb-library
+    - nanopb
+    - Nuke
+    - Protobuf
+    - ReachabilitySwift
+    - RxAppState
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - Starscream
+    - StreamChat
+    - StreamChatCore
+    - SwiftyGif
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ASProgressHud: 170e18e72af3ffb28d36fd6e6d9caf998762ff58
+  BoringSSL-GRPC: b8d2e9fca6d3870aec81ee7d583869caec2a6076
+  BTNavigationDropdownMenu: ba3a26fdb6a56c4721c31df8a0875106c259663a
+  Charts: e0dd4cd8f257bccf98407b58183ddca8e8d5b578
+  Firebase: 5ec5e863d269d82d66b4bf56856726f8fb8f0fb3
+  FirebaseAnalytics: 7ef69e76a5142f643aeb47c780e1cdce4e23632e
+  FirebaseAuth: bf22cacf22c60ab454bf2636f556d8892b10b53f
+  FirebaseCore: 90cb1c53d69b556f112a1bf72b5fcfaad7650790
+  FirebaseDatabase: 5f0bc6134c5c237cf55f9e1249d406770a75eafd
+  FirebaseFirestore: e92a096ce80c7b4b905d4e9d41dbd944adc9d2a5
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  FirebaseStorage: 0c223481c8f89ed300cf1239ddd2d9833622c65f
+  GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
+  GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  gRPC: 500fc347df959b44a7f2ba20443b034171df06ae
+  gRPC-Core: 3de3e7e6fcf234c0b13636afef4ace38b49ecae6
+  gRPC-ProtoRPC: 02cec67680ec43dedb3114de4a93bf1040eba06e
+  gRPC-RxLibrary: 79090af46797d7b8cf7120d41930c388b1ca3118
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  GzipSwift: 5592f4d62b641e04d06443ba471f8ed76b1363e4
+  leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  Nuke: 0134d56b7c9dd3e69e9bce8bdcb37c2e0d55469f
+  Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  RxAppState: b633d7370970ecb80081912ea08a7bf3eb644b4e
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxGesture: a3f8dd6adf078110ed5e1c9c30d09d705a09852e
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  StreamChat: 4c77525bca58c29aa9289f436bf640edb2c3c839
+  StreamChatCore: fb872fbbc2fe5fcf85720ef5caf8764f2127beb1
+  SwiftyGif: f7702483db93586a41f04f4927cd682852a2fa10
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 6138c4cce3f50431b5a85f038f5937e201257ef7
+
+COCOAPODS: 1.8.1
