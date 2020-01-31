@@ -26,7 +26,7 @@ class MakeaPickerViewController: UIViewController {
                     self.displayalert(userMsg: "All fields are required")
          }else{
              
-         let pickerObject = ["LatText" : self.LatText.text,"type" : "Flu","LongText" : self.LongText.text] as [String : Any]
+            let pickerObject = ["LatText" : self.LatText.text,"type" : "Flu","LongText" : self.LongText.text,"timestamp":ServerValue.timestamp()] as [String : Any]
         // var ref: DatabaseReference!
            
             self.ref.child("Map").childByAutoId().setValue(pickerObject)
@@ -43,7 +43,7 @@ class MakeaPickerViewController: UIViewController {
                     self.displayalert(userMsg: "All fields are required")
          }else{
              
-         let pickerObject = ["LatText" : self.LatText.text,"type" : "Fire","LongText" : self.LongText.text] as [String : Any]
+         let pickerObject = ["LatText" : self.LatText.text,"type" : "Fire","LongText" : self.LongText.text,"timestamp":ServerValue.timestamp()] as [String : Any]
         // var ref: DatabaseReference!
            
             self.ref.child("Map").childByAutoId().setValue(pickerObject)
@@ -60,7 +60,7 @@ class MakeaPickerViewController: UIViewController {
                     self.displayalert(userMsg: "All fields are required")
          }else{
              
-         let pickerObject = ["LatText" : self.LatText.text,"type" : "Fight","LongText" : self.LongText.text] as [String : Any]
+         let pickerObject = ["LatText" : self.LatText.text,"type" : "Fight","LongText" : self.LongText.text,"timestamp":ServerValue.timestamp()] as [String : Any]
         // var ref: DatabaseReference!
            
             self.ref.child("Map").childByAutoId().setValue(pickerObject)
@@ -78,7 +78,7 @@ class MakeaPickerViewController: UIViewController {
                     self.displayalert(userMsg: "All fields are required")
          }else{
              
-         let pickerObject = ["LatText" : self.LatText.text,"type" : "Protester","LongText" : self.LongText.text] as [String : Any]
+         let pickerObject = ["LatText" : self.LatText.text,"type" : "Protester","LongText" : self.LongText.text,"timestamp":ServerValue.timestamp()] as [String : Any]
         // var ref: DatabaseReference!
            
             self.ref.child("Map").childByAutoId().setValue(pickerObject)
@@ -96,7 +96,7 @@ class MakeaPickerViewController: UIViewController {
                     self.displayalert(userMsg: "All fields are required")
          }else{
              
-         let pickerObject = ["LatText" : self.LatText.text,"type" : "Police","LongText" : self.LongText.text] as [String : Any]
+         let pickerObject = ["LatText" : self.LatText.text,"type" : "Police","LongText" : self.LongText.text,"timestamp":ServerValue.timestamp()] as [String : Any]
         // var ref: DatabaseReference!
            
             self.ref.child("Map").childByAutoId().setValue(pickerObject)
@@ -114,7 +114,7 @@ class MakeaPickerViewController: UIViewController {
                    self.displayalert(userMsg: "All fields are required")
         }else{
             
-        let pickerObject = ["LatText" : self.LatText.text,"type" : "Ambulance","LongText" : self.LongText.text] as [String : Any]
+        let pickerObject = ["LatText" : self.LatText.text,"type" : "Ambulance","LongText" : self.LongText.text,"timestamp":ServerValue.timestamp()] as [String : Any]
        // var ref: DatabaseReference!
           
            self.ref.child("Map").childByAutoId().setValue(pickerObject)

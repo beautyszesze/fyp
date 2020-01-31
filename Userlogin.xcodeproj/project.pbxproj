@@ -29,7 +29,6 @@
 		3B65EA26234648CC0026F7AB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B65EA25234648CC0026F7AB /* Utilities.swift */; };
 		3B92CA9923C3AA2F0046C3E7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92CA9823C3AA2F0046C3E7 /* MapViewController.swift */; };
 		3BBD955D23C8553500A8C9F4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBD955C23C8553500A8C9F4 /* MapKit.framework */; };
-		3BC537F423DA131800C9EF0F /* GoogleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC537F323DA131800C9EF0F /* GoogleMapViewController.swift */; };
 		3BC537F623DAB80E00C9EF0F /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC537F523DAB80E00C9EF0F /* PlacesViewController.swift */; };
 		3BC537FA23DABFE100C9EF0F /* UIImage＋Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC537F923DABFE000C9EF0F /* UIImage＋Gif.swift */; };
 		3BC537FC23DAC91200C9EF0F /* a.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3BC537FB23DAC91200C9EF0F /* a.gif */; };
@@ -81,7 +80,6 @@
 		3B65EA25234648CC0026F7AB /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3B92CA9823C3AA2F0046C3E7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		3BBD955C23C8553500A8C9F4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		3BC537F323DA131800C9EF0F /* GoogleMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
 		3BC537F523DAB80E00C9EF0F /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
 		3BC537F923DABFE000C9EF0F /* UIImage＋Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage＋Gif.swift"; sourceTree = "<group>"; };
 		3BC537FB23DAC91200C9EF0F /* a.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = a.gif; sourceTree = "<group>"; };
@@ -216,7 +214,6 @@
 				3BFDE8DE23B78C0F00A7FC43 /* LoadingCell.swift */,
 				3BFDE8E023B7B41A00A7FC43 /* SeeNewPostsButton.swift */,
 				3B92CA9823C3AA2F0046C3E7 /* MapViewController.swift */,
-				3BC537F323DA131800C9EF0F /* GoogleMapViewController.swift */,
 				3BC537F923DABFE000C9EF0F /* UIImage＋Gif.swift */,
 				3BE6644823E3175400B73B2F /* CustomMarkerView.swift */,
 				3BE6644A23E3177B00B73B2F /* DetailsVC.swift */,
@@ -414,7 +411,6 @@
 				3B074B73238B265E0088D758 /* User.swift in Sources */,
 				3B2406E923332FA200D83445 /* ViewController.swift in Sources */,
 				3BFDE8E123B7B41A00A7FC43 /* SeeNewPostsButton.swift in Sources */,
-				3BC537F423DA131800C9EF0F /* GoogleMapViewController.swift in Sources */,
 				3B1B532123ABCFDC00ABCBC7 /* NewPostViewController.swift in Sources */,
 				3BFDE8DF23B78C0F00A7FC43 /* LoadingCell.swift in Sources */,
 				3B2406FB2333AFBA00D83445 /* loginViewController.swift in Sources */,

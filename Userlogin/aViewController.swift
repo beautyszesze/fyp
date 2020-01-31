@@ -9,6 +9,8 @@
 import UIKit
 import GoogleMaps
 import GooglePlaces
+import FirebaseDatabase
+import Firebase
 
 struct MyPlace {
     var name: String
@@ -17,17 +19,42 @@ struct MyPlace {
 }
 
 class aViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate, GMSAutocompleteViewControllerDelegate, UITextFieldDelegate {
-    
+   // var ref: DatabaseReference!
+
+    var ref = Database.database().reference()
     let currentLocationMarker = GMSMarker()
     var locationManager = CLLocationManager()
     var chosenPlace: MyPlace?
     
     let customMarkerWidth: Int = 50
     let customMarkerHeight: Int = 70
-    
+    var pickerRef:DatabaseReference{
+           return Database.database().reference().child("Map")
+       }
+    var oldPickerQuery: DatabaseQuery{
+           var queryRef:DatabaseQuery
+            
+       queryRef = pickerRef.queryOrdered(byChild: "timestamp")
+           return queryRef
+       }
     let previewDemoData = [(title: "Fire", img: #imageLiteral(resourceName: "7"), price: 10,description: "Firehelp"), (title: "Mask", img: #imageLiteral(resourceName: "gas-mask"), price: 8,description: "Maskhelp"), (title: "Gas", img: #imageLiteral(resourceName: "gas"), price: 12,description: "Gashelp")]
     
     override func viewDidLoad() {
+oldPickerQuery.queryLimited(toLast: 20).observeSingleEvent(of: .value,with:{snapshot in
+                      for child in snapshot.children{
+                          if let childSnapshot = child as? DataSnapshot,
+                              let data = childSnapshot.value as? [String:Any]
+                          {
+                            print(data)
+                            
+                            let type = data["type"]as? String
+                              print(type)
+                        }
+                     
+                          }
+                      })
+
+        
         super.viewDidLoad()
         self.title = "Map"
         self.view.backgroundColor = UIColor.white
@@ -146,12 +173,11 @@ class aViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDe
     func showPartyMarkers(lat: Double, long: Double) {
         myMapView.clear()
         for i in 0..<3 {
-            //let randNum=Double(arc4random_uniform(30))/10000
+            
             let marker=GMSMarker()
             let customMarker = CustomMarkerView(frame: CGRect(x: 0, y: 0, width: customMarkerWidth, height: customMarkerHeight), image: previewDemoData[i].img, borderColor: UIColor.darkGray, tag: i)
             marker.iconView=customMarker
-           // let randInt = arc4random_uniform(4)
-           // let tag = i
+           
             if previewDemoData[i].title == "Fire" {
                 marker.position = CLLocationCoordinate2D(latitude: 22.28552, longitude:114.15769)
             } else if previewDemoData[i].title == "Mask" {

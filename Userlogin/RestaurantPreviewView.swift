@@ -8,6 +8,8 @@
 
 import Foundation
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 class RestaurantPreviewView: UIView {
     
@@ -22,7 +24,7 @@ class RestaurantPreviewView: UIView {
     func setData(title: String, img: UIImage, price: Int) {
         lblTitle.text = title
         imgView.image = img
-        lblPrice.text = "$\(price)"
+        lblPrice.text = "\(price)"
         lblDescription.text = ""
     }
     
@@ -60,7 +62,7 @@ class RestaurantPreviewView: UIView {
     
     let imgView: UIImageView = {
         let v=UIImageView()
-        v.image=#imageLiteral(resourceName: "photo")
+        v.image=#imageLiteral(resourceName: "7")
         v.translatesAutoresizingMaskIntoConstraints=false
         return v
     }()
