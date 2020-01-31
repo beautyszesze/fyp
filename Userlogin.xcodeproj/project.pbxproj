@@ -33,6 +33,7 @@
 		3BC537F623DAB80E00C9EF0F /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC537F523DAB80E00C9EF0F /* PlacesViewController.swift */; };
 		3BC537FA23DABFE100C9EF0F /* UIImage＋Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC537F923DABFE000C9EF0F /* UIImage＋Gif.swift */; };
 		3BC537FC23DAC91200C9EF0F /* a.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3BC537FB23DAC91200C9EF0F /* a.gif */; };
+		3BC79A1F23E405AD0068108C /* MakeaPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC79A1E23E405AD0068108C /* MakeaPickerViewController.swift */; };
 		3BCA0ABD2346D03000C8F0C2 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCA0ABC2346D03000C8F0C2 /* welcomeViewController.swift */; };
 		3BCB5C5A23689E6000010E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCB5C5923689E5F00010E45 /* Assets.xcassets */; };
 		3BCB5C64236B023400010E45 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCB5C63236B023400010E45 /* MenuViewController.swift */; };
@@ -84,6 +85,7 @@
 		3BC537F523DAB80E00C9EF0F /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
 		3BC537F923DABFE000C9EF0F /* UIImage＋Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage＋Gif.swift"; sourceTree = "<group>"; };
 		3BC537FB23DAC91200C9EF0F /* a.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = a.gif; sourceTree = "<group>"; };
+		3BC79A1E23E405AD0068108C /* MakeaPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeaPickerViewController.swift; sourceTree = "<group>"; };
 		3BCA0ABC2346D03000C8F0C2 /* welcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
 		3BCB5C5923689E5F00010E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BCB5C63236B023400010E45 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 				3BE6644A23E3177B00B73B2F /* DetailsVC.swift */,
 				3BE6644C23E317C300B73B2F /* RestaurantPreviewView.swift */,
 				3BE6644E23E317F700B73B2F /* aViewController.swift */,
+				3BC79A1E23E405AD0068108C /* MakeaPickerViewController.swift */,
 			);
 			path = Userlogin;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				3BCB5C64236B023400010E45 /* MenuViewController.swift in Sources */,
 				3B3FE9602374527500D389DA /* PostTableViewCell.swift in Sources */,
 				3B074B6F238B17CF0088D758 /* MessagesViewController.swift in Sources */,
+				3BC79A1F23E405AD0068108C /* MakeaPickerViewController.swift in Sources */,
 				3BC537FA23DABFE100C9EF0F /* UIImage＋Gif.swift in Sources */,
 				3B1B532323ABD09100ABCBC7 /* newViewController.swift in Sources */,
 				3BE6644923E3175400B73B2F /* CustomMarkerView.swift in Sources */,
